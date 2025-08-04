@@ -1,0 +1,22 @@
+{
+  "name": "place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanFirstHan/place.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanFirstHan/place/issues"
+  },
+  "homepage": "https://github.com/RomanFirstHan/place#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.1.3"
+  }
+}
