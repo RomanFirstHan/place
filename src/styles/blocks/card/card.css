@@ -1,0 +1,7 @@
+.card {
+   background: #fff;
+   border-radius: var(--base-border-radius);
+   overflow: hidden;
+   max-width: 282px;
+   min-width: px;
+}

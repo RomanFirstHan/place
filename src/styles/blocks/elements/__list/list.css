@@ -1,0 +1,22 @@
+.elements__list {
+   list-style-type: none;
+   padding: 0;
+   display: grid;
+   overflow: hidden;
+   grid-column-gap: 17px;
+   grid-row-gap: 20px;
+   margin: 0;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+   .elements__list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+   }
+}
+
+@media (max-width: 320px) {
+   .elements__list {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+   }
+}

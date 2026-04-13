@@ -1,0 +1,9 @@
+.card__info {
+   display: flex;
+   color: #000;
+   height: 80px;
+   align-items: center;
+   padding: 0 21px;
+   justify-content: space-between;
+   column-gap: 10px;
+}
